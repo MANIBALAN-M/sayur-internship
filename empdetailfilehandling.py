@@ -7,7 +7,7 @@ class Empinformation():
         self.printer(Id,Name,Email,Phno)
         
     def printer(self,Id,Name,Email,Phno):
-        with open('empdetailfile.txt','w') as detailfile:
+        with open('empdetailfile.txt','a') as detailfile:
             detailfile.write(f'Employee Id           :{Id}\n')
             detailfile.write(f'Employee Name         :{Name}\n')
             detailfile.write(f'Employee Email        :{Email}\n')
