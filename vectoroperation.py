@@ -35,7 +35,7 @@ if action == '1':
         vect1 = vect1.strip()
         if vect1[-1] == 'i':
             vect1 = vect1.replace('i','')
-            vect1 = vect1.split('*')
+            vect1 = vect1.split('+')
             val1 = vect1[0]
             val2 = vect1[1]
             val1 = int(val1)
@@ -46,7 +46,7 @@ if action == '1':
         vect2 = input('Enter vector 2:')    
         if vect2[-1] == 'i':
             vect2 = vect2.replace('i','')
-            vect2 = vect2.split('*')
+            vect2 = vect2.split('+')
             val3 = vect2[0]
             val4 = vect2[1]
             val3 = int(val3)
@@ -65,7 +65,7 @@ elif action == '2':
         vect1 = vect1.strip()
         if vect1[-1] == 'i':
             vect1 = vect1.replace('i','')
-            vect1 = vect1.split('/')
+            vect1 = vect1.split('+')
             val1 = vect1[0]
             val2 = vect1[1]
             val1 = int(val1)
@@ -76,7 +76,7 @@ elif action == '2':
         vect2 = input('Enter vector 2:')    
         if vect2[-1] == 'i':
             vect2 = vect2.replace('i','')
-            vect2 = vect2.split('/')
+            vect2 = vect2.split('+')
             val3 = vect2[0]
             val4 = vect2[1]
             val3 = int(val3)
